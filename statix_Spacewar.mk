@@ -1,4 +1,4 @@
-# Copyright (C) 2022 statixOS
+# Copyright (C) 2022 LineageOS
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -26,6 +26,22 @@ TARGET_BOOT_ANIMATION_RES := 1080
 INCLUDE_PIXEL_LAUNCHER := true
 
 RISING_CHIPSET := "Qualcomm SM7325-AE Snapdragon 778G+"
+
+RISING_MAINTAINER := "Red Prez"
+
+TARGET_BUILD_APERTURE_CAMERA := true
+
+TARGET_ENABLE_BLUR := true
+
+TARGET_HAS_UDFPS := true
+
+TARGET_USE_PIXEL_FINGERPRINT := true
+
+WITH_GMS := true
+
+TARGET_CORE_GMS_EXTRAS := true
+
+
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := statix_Spacewar
