@@ -20,11 +20,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/nothing/Spacewar/device.mk)
 
 # Inherit some common stuff.
-$(call inherit-product, vendor/statix/config/common.mk)
-$(call inherit-product, vendor/statix/config/gsm.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 INCLUDE_PIXEL_LAUNCHER := true
+
+RISING_CHIPSET := "Qualcomm SM7325-AE Snapdragon 778G+"
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := statix_Spacewar
